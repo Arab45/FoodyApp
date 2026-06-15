@@ -16,11 +16,11 @@ const foods = [
 function Food() {
   return (
     <section className="py-10 px-6 text-center">
-      <h2 className="text-4xl font-bold mb-3 text-blue-900">
+      <h2 className="text-4xl font-bold mb-3 text-white">
         Fresh & Healthy Fruits 🍎
       </h2>
 
-      <p className="text-gray-700 mb-8">
+      <p className="text-white mb-8">
         Enjoy delicious fruits packed with vitamins and natural goodness.
       </p>
 
