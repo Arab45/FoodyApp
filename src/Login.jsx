@@ -1,11 +1,11 @@
 function Login() {
   return (
     <>
-      <p className="flex text-white justify-center">
-        <b>Login</b>
-      </p>
-      <section className="flex justify-center items-center min-h-screen">
-        <form>
+      <div className="flex-row justify-center items-center  min-h-screen border-4 border-b-blue-50">
+        <p className="flex items-center text-center">
+          <b>Login</b>
+        </p>
+        <form className="border-4 border-b-blue-50">
           <label className="text-white">email</label>
           <br />
           <input
@@ -25,7 +25,7 @@ function Login() {
           <br />
         </form>
         <br />
-      </section>
+      </div>
     </>
   );
 }
