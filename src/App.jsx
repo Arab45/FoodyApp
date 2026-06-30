@@ -1,7 +1,6 @@
-import Food from "./Food.jsx";
-import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
-import Login from "./Login.jsx";
+import Hero from "./Hero.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,11 +10,9 @@ function App() {
       <Header />
 
       <main className="flex-1">
-        <Food />
-
-        <Login />
+        <Hero />
+        
       </main>
-
       <Footer />
     </div>
   );
